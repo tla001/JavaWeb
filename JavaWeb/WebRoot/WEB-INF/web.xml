@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  	<!-- 配置web应用参数 -->
+	<context-param>
+		<param-name>AAA</param-name>
+		<param-value>AAA's value</param-value>
+	</context-param>
+	<context-param>
+		<param-name>BBB</param-name>
+		<param-value>BBB's value</param-value>
+	</context-param>
+	<context-param>
+		<param-name>CCC</param-name>
+		<param-value>CCC's value</param-value>
+	</context-param>
+	
+  
+  <servlet>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>cn.tla001.servletTest.HelloServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RequestDemo</servlet-name>
+    <servlet-class>cn.tla001.request.RequestDemo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReponseDemo</servlet-name>
+    <servlet-class>cn.tla001.response.ReponseDemo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResponseDemo2</servlet-name>
+    <servlet-class>cn.tla001.response.ResponseDemo2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResponseDemo3</servlet-name>
+    <servlet-class>cn.tla001.response.ResponseDemo3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResponseDemo4</servlet-name>
+    <servlet-class>cn.tla001.response.ResponseDemo4</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LifeDemo</servlet-name>
+    <servlet-class>cn.tla001.servletTest.LifeDemo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ConfigDemo</servlet-name>
+    <servlet-class>cn.tla001.servletTest.ConfigDemo</servlet-class>
+    <init-param>
+		<param-name>path</param-name>
+		<param-value>e:/b.txt</param-value>
+	</init-param>
+	<init-param>
+		<param-name>aaa</param-name>
+		<param-value>dddt</param-value>
+	</init-param>
+	<init-param>
+		<param-name>bb</param-name>
+		<param-value>fff</param-value>
+	</init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>ContextDemo</servlet-name>
+    <servlet-class>cn.tla001.servletTest.ContextDemo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ContextDemo2</servlet-name>
+    <servlet-class>cn.tla001.servletTest.ContextDemo2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ForwardDemo</servlet-name>
+    <servlet-class>cn.tla001.servletTest.ForwardDemo</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestDemo</servlet-name>
+    <url-pattern>/request1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReponseDemo</servlet-name>
+    <url-pattern>/resp1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo2</servlet-name>
+    <url-pattern>/resp2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo3</servlet-name>
+    <url-pattern>/resp3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo4</servlet-name>
+    <url-pattern>/resp4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LifeDemo</servlet-name>
+    <url-pattern>/life1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConfigDemo</servlet-name>
+    <url-pattern>/config1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContextDemo</servlet-name>
+    <url-pattern>/context1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContextDemo2</servlet-name>
+    <url-pattern>/context2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ForwardDemo</servlet-name>
+    <url-pattern>/forward</url-pattern>
+  </servlet-mapping>
+
+</web-app>
