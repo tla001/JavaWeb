@@ -74,6 +74,56 @@
     <servlet-name>ForwardDemo</servlet-name>
     <servlet-class>cn.tla001.servletTest.ForwardDemo</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>PathDemo</servlet-name>
+    <servlet-class>cn.tla001.servletTest.PathDemo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CookieDemo1</servlet-name>
+    <servlet-class>cn.tla001.cookie.CookieDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CookieDemo2</servlet-name>
+    <servlet-class>cn.tla001.cookie.CookieDemo2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SessionDemo1</servlet-name>
+    <servlet-class>cn.tla001.cookie.SessionDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SessionDemo2</servlet-name>
+    <servlet-class>cn.tla001.cookie.SessionDemo2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListServlet</servlet-name>
+    <servlet-class>cn.tla001.Example_1_Product.ListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DetailServlet</servlet-name>
+    <servlet-class>cn.tla001.Example_1_Product.DetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IndexServlet</servlet-name>
+    <servlet-class>cn.tla001.Example_2_Login.IndexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.tla001.Example_2_Login.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>cn.tla001.Example_2_Login.LogoutServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -128,6 +178,46 @@
   <servlet-mapping>
     <servlet-name>ForwardDemo</servlet-name>
     <url-pattern>/forward</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PathDemo</servlet-name>
+    <url-pattern>/path1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CookieDemo1</servlet-name>
+    <url-pattern>/cookie1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CookieDemo2</servlet-name>
+    <url-pattern>/cookie2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SessionDemo1</servlet-name>
+    <url-pattern>/session1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SessionDemo2</servlet-name>
+    <url-pattern>/session2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListServlet</servlet-name>
+    <url-pattern>/listservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DetailServlet</servlet-name>
+    <url-pattern>/detailservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern>/IndexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
   </servlet-mapping>
 
 </web-app>
