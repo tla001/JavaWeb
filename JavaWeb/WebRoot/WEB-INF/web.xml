@@ -118,6 +118,21 @@
     <servlet-name>FilterServlet</servlet-name>
     <servlet-class>cn.tla001.filter.FilterServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>FileUpTest</servlet-name>
+    <servlet-class>cn.tla001.fileUpDown.FileUpTest</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FileUpTest1</servlet-name>
+    <servlet-class>cn.tla001.fileUpDown.FileUpTest1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FileServlet1</servlet-name>
+    <servlet-class>cn.tla001.fileUpDown.FileServlet1</servlet-class>
+  </servlet>
+
+
+
 
 
 
@@ -227,6 +242,18 @@
   <servlet-mapping>
     <servlet-name>FilterServlet</servlet-name>
     <url-pattern>/FilterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileUpTest</servlet-name>
+    <url-pattern>/FileUpTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileUpTest1</servlet-name>
+    <url-pattern>/FileUpTest1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileServlet1</servlet-name>
+    <url-pattern>/FileServlet1</url-pattern>
   </servlet-mapping>
   
   <filter>
